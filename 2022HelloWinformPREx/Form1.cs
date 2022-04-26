@@ -16,5 +16,10 @@ namespace _2022HelloWinformPREx
         {
             InitializeComponent();
         }
+
+        private void 종료ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
